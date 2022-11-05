@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+font-family: 'Lato', sans-serif;
+*/
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+header{
+    background: #f6f9f9;
+    padding: 20px 0;
+}
+.header_wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2D3950;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    transition: .2s all ease-in-out;
+}
+nav ul li a:hover{
+    color: #15A4FA;
+}
+
+/* banner part */
+.banner{
+    background-image: url(../images/banner.png);
+    min-height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_content{
+    width: 55%;
+    text-align: center;
+}
+.banner_content h1{
+    color: #ffffff;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.banner_content span{
+    display: block;
+    background: #15A4FA;
+    height: 2px;
+    width: 65%;
+    margin: auto;
+}
+.banner_content p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px 0 60px 0;
+    font-family: 'Lato', sans-serif;
+}
+.banner_content button{
+    background: transparent;
+    border: 1px solid #15A4FA;
+    padding: 16px 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+}
+.banner_content button:hover{
+    background-color: #15A4FA;
+    color: #ffffff;
+}
+
+.banner_content a{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    transition: .2s all ease-in-out;
+    font-size: 22px;
+}   
+.banner_content a:hover{
+    color: #15A4FA;
+}
+.icon{
+    
+color: #fff;
+    
+position: absolute;
+    
+bottom: 80px;
+    
+left: 50%;
+    font-size: 20px;
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+/* transform: translate(-50%, 0%); */
+} 
+@keyframes updown{
+    0%{
+bottom: 60px;
+    }
+    100%{
+bottom: 50px;
+    }
+}
+.simpal-1{
+
+background: #f9f9f9;
+
+padding: 50px 0;
+}
+.simpal{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+}
+.simpal h2{
+    
+font-size: 40px;
+    
+font-weight: 500;
+}
+.simpal p{
+    
+font-family: 'Lato', sans-serif;
+    
+margin-top: 20px;
+}
+.dign{
+
+padding: 50px 0;
+
+width: 80%;
+
+display: flex;
+
+margin: auto;
+
+justify-content: space-between;
+}
+.dign-prat{
+
+width: 30%;
+
+text-align: center;
+
+box-shadow: 0px -1px 1px 1px black;
+}
+.dign-box{
+    
+height: 80px;
+    
+width: 80px;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+ 
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+    
+font-size: 35px;
+    
+    
+color: #fff;
+    
+margin: auto;
+}
+.dign-prat h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+margin: 15px 0 10px 0;
+}
+.dign-prat p{
+    font-family: 'Lato', sans-serif;
+}
+.galarry-section {
+
+background: #f9f9f9;
+
+padding: 100px 0;
+}
+.galarry-con{
+
+width: 80%;
+
+margin: auto;
+}
+.tex{
+
+text-align: center;
+
+margin-bottom: 50px;
+}
+.tex h2{
+    
+font-size: 40px;
+    
+padding-bottom: 10px;
+    
+font-weight: 500;
+}
+.tex p{
+    
+font-size: 15px;
+}
+.gallery{
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-between;
+}
+.gallery-item{
+ margin-bottom: 20px;
+ width: 32%;
+ position: relative;
+}
+.gallery-item img{
+width: 100%;
+display: block;
+}
+.gallery-item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #15A4FA;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.gallery-item:hover::before{
+  opacity: .5;
+} 
+.gallery-item{
+
+}
+.gallery-item ul{
+    
+list-style: none;
+    
+display: flex;
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 55%;
+    
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .4s all ease-in-out;
+}
+.gallery-item ul li{
+    
+border: 1px solid #fff;
+    
+height: 30px;
+    
+width: 30px;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+margin: 2px;
+    
+border-radius: 3px;
+}
+.gallery-item ul li a{
+    
+color: #fff;
+}
+.gallery-item:hover ul{
+opacity: 1;
+top: 50%;
+}
+.infor{
+padding: 70px 0;
+ background-image: url(../images/br.jpeg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ z-index: 0;
+}
+.infor::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #15A4FA;
+    opacity: .6;
+  z-index: -1;  
+}
+.form{
+
+width: 30%;
+
+margin: auto;
+}
+.form form{
+}
+.form form input{
+    color: #fff;
+width: 100%;
+    
+background: transparent;
+    
+border: 1px solid #fff;
+    
+margin-bottom: 10px;
+    
+padding: 10px;
+    
+border-radius: 5px;
+}
+ 
+.form form textarea {
+    color: #fff;
+    width: 100%;
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.subscribe{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+width: 104%;
+}
+.subscribe input[type="checkbox"] {
+    
+width: auto;
+}
+.subscribe input[type="submit"]{
+    color: #fff;
+    border-radius: 2px;
+    padding: 7px 20px;
+}
+
+.subscribe p{
+
+color: #fff;
+
+display: inline-block;
+
+margin-left: 10px;
+}
+footer{background: #f6f9f9;padding: 10px 0;margin: 10px;}
+.img{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.img p{
+    width: 20%;
+    font-size: 15px;
+    color: #999999
+}
+
+.ico{
+
+width: 50%;
+}
+.ico ul{list-style: none;display: flex;justify-content: end;}
+
+.ico ul li{
+    border: 1px solid #2879ff;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border-radius: 3px;
+    margin-left: 20px;
+    background: #2879ff;
+}
+.ico ul li a{
+}
+
